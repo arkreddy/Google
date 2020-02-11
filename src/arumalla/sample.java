@@ -19,6 +19,7 @@ public class sample{
 		WebElement element = driver.findElement(By.name("q"));
         element.sendKeys("Leaning Selenium");
         element.submit();
+		 driver.close();
 		
 	}
 }
